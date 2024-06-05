@@ -10,9 +10,7 @@ async def insertingData(app : FastAPI):
 
     try:
         populate()
-    except Exception as e: 
-        print(e)
-        pass
+    except Exception: pass
     yield
 
 
